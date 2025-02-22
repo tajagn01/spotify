@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header flex items-center">
+        <div class="logo">
+            <img src="https://www.citypng.com/public/uploads/preview/spotify-white-logo-symbol-icon-hd-png-701751694970246wh0arrwxm2.png"
+                alt="Spotify Logo">
+        </div>
+        <div class="btn">
+            <button class="white">Sign Up</button>
+            <button class="black">Log In</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <div class="library-container flex items-center">
+                <div class="library-left flex items-center">
+                    <img src="lib.svg" alt="Library Icon" class="library-icon">
+                    <span class="library-text">Your Library</span>
+                </div>
+                <div class="library-right">
+                    <img src="pluas.svg" alt="Add Icon" class="plus-icon">
+                </div>
+            </div>
+
+            <div class="b-container">
+                <section class="abc">
+                    <div class="xyz">
+                        <span>Create your playlist</span>
+                        <div>It's easy</div>
+                    </div>
+                    <button class="pqr">Create Playlist</button>
+                </section>
+
+                <section class="abc">
+                    <div class="xyz">
+                        <span>Let's find some podcasts to follow</span>
+                        <div>We'll keep you updated with new episodes</div>
+                    </div>
+                    <button class="pqr">Browse Podcasts</button>
+                </section>
+            </div>
+
+            <footer class="footer-left">
+                <div class="footer-container">
+                    <div class="legal-links">
+                        <a href="https://www.spotify.com/in-en/legal/" target="_blank">Legal</a>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/" target="_blank">Safety & Privacy
+                            Center</a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" target="_blank">Privacy Policy</a>
+                    </div>
+                    <div class="cookie-policy">
+                        <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank">Cookies</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="right">
+            <h1>soptify playlist</h1>
+            <div class="cardcontainer">
+                <div class="card" id="glory-card">
+                    <div class="play" id="glory-play-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+                            <circle cx="12" cy="12" r="10" fill="#00f745" />
+                            <path
+                                d="M15.9453 12.3948C15.7686 13.0215 14.9333 13.4644 13.2629 14.3502C11.648 15.2064 10.8406 15.6346 10.1899 15.4625C9.9209 15.3913 9.6758 15.2562 9.47812 15.0701C9 14.6198 9 13.7465 9 12C9 10.2535 9 9.38018 9.47812 8.92995C9.6758 8.74381 9.9209 8.60868 10.1899 8.53753C10.8406 8.36544 11.648 8.79357 13.2629 9.64983C14.9333 10.5356 15.7686 10.9785 15.9453 11.6052C16.0182 11.8639 16.0182 12.1361 15.9453 12.3948Z"
+                                fill="black" />
+                        </svg>
+
+                    </div>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="yo yo">
+                    <h2>glory</h2>
+                    <P>yo yo honey singh</P>
+                    <audio id="glory-audio" src="milianar.mp3"></audio>
+                </div>
+                <div class="card" id="aashiqui-card">
+                    <div class="play" id="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+                            <circle cx="12" cy="12" r="10" fill="#00f745" />
+                            <path d="M15.9453 12.3948C15.7686 13.0215 14.9333 13.4644 13.2629 14.3502C11.648 15.2064 10.8406 15.6346 10.1899 
+15.4625C9.9209 15.3913 9.6758 15.2562 9.47812 15.0701C9 14.6198 9 13.7465 9 12C9 10.2535 9 9.38018 9.47812 
+8.92995C9.6758 8.74381 9.9209 8.60868 10.1899 8.53753C10.8406 8.36544 11.648 8.79357 13.2629 9.64983C14.
+9333 10.5356 15.7686 10.9785 15.9453 11.6052C16.0182 11.8639 16.0182 12.1361 15.9453 12.3948Z" fill="black" />
+                        </svg>
+                    </div>
+                    <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="yo yo">
+                    <h2>Aashiqui 2</h2>
+                    <P>Mithoon, Ankit Tiwari, Jeet Gannguli</P>
+                    <audio id="aashiqui-audio" src="ashiki.mp3"></audio>
+                </div>
+                <div class="card" id="song3-card">
+                    <div class="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+                            <circle cx="12" cy="12" r="10" fill="#00f745" />
+                            <path d="M15.9453 12.3948C15.7686 13.0215 14.9333 13.4644 13.2629 14.3502C11.648 15.2064 10.8406 15.6346 10.1899 
+15.4625C9.9209 15.3913 9.6758 15.2562 9.47812 15.0701C9 14.6198 9 13.7465 9 12C9 10.2535 9 9.38018 9.47812 
+8.92995C9.6758 8.74381 9.9209 8.60868 10.1899 8.53753C10.8406 8.36544 11.648 8.79357 13.2629 9.64983C14.
+9333 10.5356 15.7686 10.9785 15.9453 11.6052C16.0182 11.8639 16.0182 12.1361 15.9453 12.3948Z" fill="black" />
+                        </svg>
+                    </div>
+                    <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="yo yo">
+                    <h3 style="size: 25px;"> Play Jo Tum Mere Ho by Anuv Jain</h3>
+                    <P>Anuv Jain</P>
+                    <audio id="song3-audio" src="jo tum mere ho.mp3"></audio>
+                </div>
+                <div class="card" id="song4-card">
+                    <div class="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+                            <circle cx="12" cy="12" r="10" fill="#00f745" />
+                            <path d="M15.9453 12.3948C15.7686 13.0215 14.9333 13.4644 13.2629 14.3502C11.648 15.2064 10.8406 15.6346 10.1899 
+15.4625C9.9209 15.3913 9.6758 15.2562 9.47812 15.0701C9 14.6198 9 13.7465 9 12C9 10.2535 9 9.38018 9.47812 
+8.92995C9.6758 8.74381 9.9209 8.60868 10.1899 8.53753C10.8406 8.36544 11.648 8.79357 13.2629 9.64983C14.
+9333 10.5356 15.7686 10.9785 15.9453 11.6052C16.0182 11.8639 16.0182 12.1361 15.9453 12.3948Z" fill="black" />
+                        </svg>
+                    </div>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="yo yo">
+                    <h2>Making Memories</h2>
+                    <P>Karan Aujla, Ikky</P>
+                    <audio id="song4-audio" src="aye hay.mp3"></audio>
+                </div>
+                <h1>Popular radio</h1>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                            alt="yo yo">
+
+                        <P>With Atif Aslam, Sachin-Jigar, Amit...</P>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3gBKY0y3dFFVRqicLnVZYz/en"
+                            alt="yo yo">
+
+                        <P>With Kumar Sanu, Vinod Rathod, Udit...</P>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en"
+                            alt="yo yo">
+                        <P>With Karan Aujla, Shubh, Badshah an...</P>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en"
+                            alt="yo yo">
+
+                        <P>With A.R. Rahman, Vishal-Shekhar, Atif...</P>
+                    </div>
+                </div>
+            </div>
+            <iframe id="youtube-iframe" width="100%" height="315" src="" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

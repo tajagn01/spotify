@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 8px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.btn button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.white {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100px;
+    height: 39px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.white:hover {
+    font-size: 1rem;
+    color: #9c9a9a;
+    width: 110px;
+}
+
+.black {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 39px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.black:hover {
+    font-size: 1.1rem;
+    width: 110px;
+}
+
+.container {
+    display: flex;
+    height: 150vh;
+    gap: 12px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28%;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 15px;
+    height: 100%
+}
+
+.right {
+    flex: 1;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 15px;
+    height: 100%
+}
+
+.library-container {
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.library-icon {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.b-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.abc {
+    border-radius: 9px;
+    padding: 10px;
+    background-color: #1f1f1f;
+}
+
+.xyz {
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.pqr {
+    width: 141px;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pqr:hover {
+    background-color: #9d9e9f;
+}
+
+.footer-left {
+    margin-top: auto;
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+}
+
+.legal-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.cookie-policy a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card {
+    width: 220px;
+    margin-top: 20px;
+    border-radius: 13px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    position: relative;
+}
+
+.card:hover{
+    background-color: #1f1f1f; 
+}
+
+div>img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 14px;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #121212;
+}
+
+.play {
+    position: absolute;
+    right: 17px;
+    bottom: -60px;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover .play {
+    bottom: 17px;
+    opacity: 1;
+   /* Make it visible when the card is hovered */
+}
+
+/* Optionally, style the card to position the play button correctly */
+.card {
+    position: relative; /* To position the play button inside the card */
+}
